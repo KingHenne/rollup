@@ -1,4 +1,4 @@
-import ansiEscape from 'ansi-escapes';
+import ansiEscape = require('ansi-escapes');
 import { stderr } from '../logging';
 
 const SHOW_ALTERNATE_SCREEN = '\u001B[?1049h';

@@ -1,9 +1,9 @@
-import fs from 'fs';
+import * as fs from 'fs';
 import * as rollup from 'rollup';
 import chalk from 'chalk';
-import ms from 'pretty-ms';
-import onExit from 'signal-exit';
-import dateTime from 'date-time';
+import ms = require('pretty-ms');
+import onExit = require('signal-exit');
+import dateTime = require('date-time');
 import mergeOptions from '../../../src/utils/mergeOptions';
 import batchWarnings from './batchWarnings';
 import alternateScreen from './alternateScreen';

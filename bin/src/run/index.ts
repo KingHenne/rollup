@@ -1,5 +1,5 @@
 import { realpathSync } from 'fs';
-import relative from 'require-relative';
+import relative = require('require-relative');
 import { handleError } from '../logging';
 import mergeOptions from '../../../src/utils/mergeOptions';
 import batchWarnings from './batchWarnings';

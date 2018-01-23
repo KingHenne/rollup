@@ -1,4 +1,4 @@
-import relative from 'require-relative';
+import relative = require('require-relative');
 import * as chokidarType from 'chokidar';
 
 let chokidar: typeof chokidarType;

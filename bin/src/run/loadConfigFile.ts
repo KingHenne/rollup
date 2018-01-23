@@ -1,4 +1,4 @@
-import path from 'path';
+import * as path from 'path';
 import chalk from 'chalk';
 import * as rollup from 'rollup';
 import batchWarnings from './batchWarnings';

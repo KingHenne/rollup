@@ -1,6 +1,6 @@
 import * as rollup from 'rollup';
 import chalk from 'chalk';
-import ms from 'pretty-ms';
+import ms = require('pretty-ms');
 import { handleError, stderr } from '../logging';
 import relativeId from '../../../src/utils/relativeId';
 import { mapSequence } from '../../../src/utils/promise';

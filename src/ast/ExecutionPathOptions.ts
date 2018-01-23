@@ -1,4 +1,4 @@
-import Immutable from 'immutable';
+import Immutable = require('immutable');
 import CallExpression from './nodes/CallExpression';
 import CallOptions from './CallOptions';
 import ThisVariable from './variables/ThisVariable';

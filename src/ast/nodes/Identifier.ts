@@ -1,5 +1,5 @@
 import { Node, NodeBase } from './shared/Node';
-import isReference from 'is-reference';
+import isReference = require('is-reference');
 import { UNKNOWN_EXPRESSION } from '../values';
 import Scope from '../scopes/Scope';
 import ExecutionPathOptions from '../ExecutionPathOptions';

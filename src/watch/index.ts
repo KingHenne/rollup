@@ -1,4 +1,4 @@
-import path from 'path';
+import * as path from 'path';
 import { EventEmitter } from 'events';
 import createFilter from 'rollup-pluginutils/src/createFilter.js';
 import rollup, { InputOptions, OutputOptions, OutputChunk } from '../rollup/index';
